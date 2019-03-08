@@ -23,6 +23,29 @@
   color: #61dafb;
 }
 
+img {
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 30vw;
+    min-height: 30vw;
+}
+
+.reset {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    min-width: 100px;
+  
+}
+button {
+    min-width: 50px;
+    max-height: 50px;
+    margin-left: 8px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
